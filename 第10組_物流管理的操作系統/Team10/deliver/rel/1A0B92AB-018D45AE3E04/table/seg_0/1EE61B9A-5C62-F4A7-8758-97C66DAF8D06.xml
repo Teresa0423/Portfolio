@@ -1,0 +1,269 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EE61B9A-5C62-F4A7-8758-97C66DAF8D06" name="ORDER_INFORMATION">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:33:25 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="D05EC03B-7242-C68D-1B89-3794074FF1E9">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="4559E83B-09E1-AAD0-A2EC-9FD70B41A1EF">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_SENDER_ID" id="4BA785C7-0A0E-21C1-1BD1-012F60AA4C00">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4F8E15-E3A0-7EC5-A7BB-C514D997F8E9" referredColumn="A116C6F9-8ADF-CA93-7A48-99A80E9684CE"/>
+</associations>
+</Column>
+<Column name="ORDER_RECEIVER_ID" id="50B18EF1-0DC9-9963-4AD9-03CD6ABAAE9E">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44FB337B-AB10-D5D2-82C8-EEAAAF87CD6B" referredColumn="DC0F2E5E-7350-02FB-B4D2-3D6013C59D3A"/>
+</associations>
+</Column>
+<Column name="ORDER_RECEIVER_NAME" id="60C7FDFA-3524-394F-DFBC-DB5A1C40E574">
+<createdBy>User</createdBy>
+<createdTime>2022-06-13 16:54:25 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_RECEIVER_PHONE" id="1EB519F8-9024-0852-11F2-D5F15D0EF7C6">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_RECEIVER_ADRESS" id="A1419ADC-2C17-39C6-8D64-D920A977B8B9">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_RECEIVER_AREA" id="ACD60AA4-A314-7A5B-217D-0FCE386C338A">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:25:06 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72ABB317-967E-32D6-F171-A363915C9279" referredColumn="96CA76E6-B677-6328-0EB8-D7B732142E64"/>
+</associations>
+</Column>
+<Column name="ORDER_TYPE" id="496D7DE6-7E17-82E2-70ED-FD29199F1CA5">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DELIVERYFEE" id="FD72E674-8F64-0875-D2B3-FD8CE0F689A6">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_PAY" id="06105AE4-B516-8312-98C2-D53F8667813B">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_PAY_POSITION" id="18F3BE05-5D04-F92F-9DB3-7211D1A21245">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_POSITION" id="6E0D2D1A-21C7-946D-5193-D52C705E90CE">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:10:03 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DELIVERY_POSITION" id="054035B3-0593-4886-35D8-79349ECA30ED">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_EXPECT_DATE" id="EE82E05A-8C2A-35BD-46AB-47C1C3D592A2">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:06:30 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_PRINCIPAL" id="46960D86-11DE-7266-66F2-93F20B8B2C58">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:57:53 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8FDA61B-5EBE-137C-9F6D-255728995582" referredColumn="5CF788AA-75FD-20FA-EF78-1409D6ECF78D"/>
+</associations>
+</Column>
+<Column name="ORDER_REMARKS" id="9B7E3CED-E337-011A-6B83-0A5F4CDBE680">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:13:08 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC7B6F0C-3A84-DF04-F3A3-B9E47C171C35" name="Order_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05EC03B-7242-C68D-1B89-3794074FF1E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="044296A6-CC87-9A00-BCE8-F26B75E41DFE" name="Order_Employee_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 08:00:43 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46960D86-11DE-7266-66F2-93F20B8B2C58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F932174C-67AC-9681-4CFB-B63986B0CB14" name="ORDER_RECEIVER_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:15:47 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50B18EF1-0DC9-9963-4AD9-03CD6ABAAE9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="414DFCE5-9C9E-9E3B-76BE-69F2E362CCB5" name="ORDER_SENDER_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:15:59 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA785C7-0A0E-21C1-1BD1-012F60AA4C00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEBED438-AD1C-1668-F9A7-8C4F000D8BD8" name="ORDER_WAREHOUSE_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-06-13 17:26:20 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACD60AA4-A314-7A5B-217D-0FCE386C338A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

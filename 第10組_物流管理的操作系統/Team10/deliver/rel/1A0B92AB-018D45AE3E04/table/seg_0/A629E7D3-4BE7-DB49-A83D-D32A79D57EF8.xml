@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A629E7D3-4BE7-DB49-A83D-D32A79D57EF8" name="CAR">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:43:57 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_ID" id="21CE6526-B6D5-BF4F-A124-C084EB5CFBBD">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:54:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_TYPE" id="0DB79AE4-F4A0-8E6D-23FE-8E2865BBF03F">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:27:27 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_DRIVER" id="EBDA6079-3B33-8226-3738-C4BFD153C56B">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:54:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BDF54B4-CFC6-3671-5CA8-AAE30CFE4D39" referredColumn="5CF788AA-75FD-20FA-EF78-1409D6ECF78D"/>
+</associations>
+</Column>
+<Column name="CAR_POSITION" id="061CB91A-CF58-F9FE-F5C8-CDF48438DE16">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:54:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_MAINTAIN_COST" id="638FEFC6-984E-7AFE-74DB-F54E97C6814F">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:22:10 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_FUEL_COST" id="8F97BE8B-058E-243B-A898-F22F0A8CFF76">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:25:21 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_REMARKS" id="9FB9F6DE-7614-57AA-9B4E-A530871A440C">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:17:17 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE1412E1-80BE-7AF9-A102-9138DCA2D869" name="Car_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:54:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21CE6526-B6D5-BF4F-A124-C084EB5CFBBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="298FDE22-1A87-3794-79C2-20684D339C65" name="CAR_DRIVE_FKv1">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:19:12 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBDA6079-3B33-8226-3738-C4BFD153C56B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

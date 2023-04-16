@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE9EC7C5-A00B-4347-0EC9-4794FD48CCF6" name="EMPLOYEE">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 05:40:12 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="5CF788AA-75FD-20FA-EF78-1409D6ECF78D">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:15:47 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_NAME" id="8F790027-900F-72F0-93FD-0EF1F9374D16">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:15:47 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_PHONE" id="EE247AA5-9C90-F863-045D-D7A15C83AA6A">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:20:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_EMAIL" id="F4DE9376-5B0E-4D06-C892-57C224BE63D1">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:20:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_ADRESS" id="2E497354-4F10-848A-8794-6A00A04691DB">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:20:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_START" id="D9115D08-D27D-F2CF-99F2-5EB6567C41E7">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:20:46 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_DEPARTMENT" id="4304FBAC-07B6-147E-296F-FBAB1526BF58">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:25:02 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_POSITION" id="EF500E15-D005-1B5C-AB83-D9B5300A0920">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:46:55 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_STITUATION" id="1A76A2D4-04EE-34AF-6C60-58B742223E01">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:25:02 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55DAC2C4-F957-86BC-0B40-33FDC8B828FA" name="Employee_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:28:13 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CF788AA-75FD-20FA-EF78-1409D6ECF78D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

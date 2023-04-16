@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDFF0BB1-49B0-11FD-5A00-E4E563823084" name="DRIVE">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:30:42 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DRIVE_ID" id="AC94826D-74AA-801B-B47A-53205CA3AEB1">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:35:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRIVE_DRIVER" id="B49CFA2D-3DD9-4E5D-AD2F-2C76FEFD1D13">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:35:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6ACF13F9-D279-A92B-0AA3-8C12A305DA9D" referredColumn="5CF788AA-75FD-20FA-EF78-1409D6ECF78D"/>
+</associations>
+</Column>
+<Column name="DRIVE_LOCATION" id="6DB9662D-2201-1EB9-C2E9-DB58A8B6F617">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:35:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRIVE_CONDITION" id="8B3C7B64-9CC2-8E44-7C78-AE779B41FC96">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:35:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRIVE_GOODS" id="7961F9A3-5D7F-CE3F-7409-58C621D5E03F">
+<createdBy>User</createdBy>
+<createdTime>2022-06-11 02:51:49 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B42D3EA5-DBA1-5F2C-3429-5304E687E1B1" name="DRIVE_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:35:35 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC94826D-74AA-801B-B47A-53205CA3AEB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64A2CB89-F491-7C21-FF5C-77F0CFBF5284" name="DRIVE_EMPLOYEE_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-06-14 14:17:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49CFA2D-3DD9-4E5D-AD2F-2C76FEFD1D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

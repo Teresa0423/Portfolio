@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="482126F4-C263-DDB5-70AA-75723E2075F5" name="MEMBER">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:54:59 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_ID" id="B998DF84-2815-314E-826E-4EE7E1B1F849">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:59:33 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_NAME" id="E3C2C21F-E2D0-D911-7164-B06B2DC1DCA8">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:59:33 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_PHONE" id="3B4BDDF9-88F0-95B5-4AD8-7C25777D42C9">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:59:33 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_MAIL" id="09C538A2-E444-8B7B-1B78-01F82373B064">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:20:41 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_TYPE" id="831B7069-C614-A3A5-2C91-CDFB0CE6C54F">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:59:33 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_PRINCIPAL" id="0CEF10B1-15AA-A5DC-5726-3AA7579DD35E">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 08:16:00 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E6C22FE-9783-8DCA-C11E-EDE14B132BDD" referredColumn="5CF788AA-75FD-20FA-EF78-1409D6ECF78D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF2B9B10-F09B-7EA4-0118-06419E1526AA" name="Member_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:59:33 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B998DF84-2815-314E-826E-4EE7E1B1F849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD3127B0-22D2-089B-9361-94150951675D" name="Member_Employee_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 08:16:00 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CEF10B1-15AA-A5DC-5726-3AA7579DD35E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

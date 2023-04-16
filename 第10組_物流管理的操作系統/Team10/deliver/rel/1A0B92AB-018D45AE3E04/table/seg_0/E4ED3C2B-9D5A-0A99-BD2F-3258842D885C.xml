@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4ED3C2B-9D5A-0A99-BD2F-3258842D885C" name="WAREHOUSE">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:03:08 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WAREHOUSE_AREA" id="96CA76E6-B677-6328-0EB8-D7B732142E64">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:05:24 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WAREHOUSE_CAR" id="77B228DE-61D6-CAD1-C832-162EB3D8139B">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:05:24 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WAREHOUSE_COST" id="DFF6D991-43C5-0034-9237-E911DD2B7D9E">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:21:53 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WAREHOUSE_PRINCIPAL" id="BDBEC67C-7446-9650-49D1-FFFDC14BEB4F">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 15:11:59 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7624E635-8197-40F7-0E57-91E97762EAB9" name="Warehouse_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 07:05:24 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96CA76E6-B677-6328-0EB8-D7B732142E64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

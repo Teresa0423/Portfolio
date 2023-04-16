@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEFCE6A1-6636-14EC-05F2-8A5E67DE7DE5" name="RECEIVER">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECEIVER_ID" id="DC0F2E5E-7350-02FB-B4D2-3D6013C59D3A">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIVER_NAME" id="490EBF81-8BF7-AD77-F055-126027D1D07B">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIVER_PHONE" id="4759FA60-AB8E-0B77-6793-6B2DA994AC8C">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>26</dataTypeSize>
+<ownDataTypeParameters>26,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIVER_ADRESS" id="A6D18011-F8D0-1D5B-D1E1-FCEABE25F436">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIVER_MAIL" id="05562AD3-A181-F658-789F-964F808C5DB9">
+<createdBy>User</createdBy>
+<createdTime>2022-06-10 14:13:52 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B4ED8DA-5446-909D-F456-319067344767" name="Senderv1_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-28 06:31:16 UTC</createdTime>
+<ownerDesignName>deliver</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC0F2E5E-7350-02FB-B4D2-3D6013C59D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
